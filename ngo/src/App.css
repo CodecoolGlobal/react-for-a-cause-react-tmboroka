@@ -1,5 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&family=Lobster&display=swap');
+
+.headerDiv{
+  background-color: green;
+  display: grid;
+  grid-template-columns: 1fr 0.4fr 1fr;
+}
+
+.headerDiv > .logoContainer{
+  display: flex;
+  justify-content: space-between;
+  grid-column: 2;
+}
+
+.logoContainer > a > img{
+  min-width: 3em;
+  max-height: 2em;
+}
+
+
 .App {
+  font-family: 'Cinzel';
   text-align: center;
+}
+
+.text {
+  font-family: Fauna One, serif;
 }
 
 .App-logo {
