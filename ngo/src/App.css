@@ -1,6 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&family=Lobster&display=swap');
 
+.toolbar-comp{
+  display: grid;
+  grid-template-columns: 2fr 6fr 2fr;
+}
+
+.toolbar-comp > .a-container {
+  display: flex;
+  justify-content: space-between;
+  grid-column: 2;
+}
+
 .headerDiv{
   background-color: green;
   display: grid;
