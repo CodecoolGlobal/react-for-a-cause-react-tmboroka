@@ -1,4 +1,4 @@
-function toolbar () {
+function Toolbar() {
     return (
     <div className='toolbar-comp'>
         <div className='a-container'>
@@ -13,4 +13,4 @@ function toolbar () {
     )
 }
 
-export default toolbar
+export default Toolbar
