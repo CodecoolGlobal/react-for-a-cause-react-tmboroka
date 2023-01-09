@@ -15,12 +15,29 @@
 .headerDiv{
   background-color: green;
   display: grid;
-  grid-template-columns: 1fr 0.4fr 1fr;
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+}
+
+.headerDiv > .button-containers > .buttons{
+  border-radius: 12px;
+  
+}
+.headerDiv > .button-containers > .buttons:hover {
+  cursor: pointer;
+  background-color: aqua;
+  
+}
+
+.headerDiv > .button-containers{
+  grid-column: 4;
+  display: flex;
+  justify-content: right;
+  justify-content: space-around;
 }
 
 .headerDiv > .logoContainer{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   grid-column: 2;
 }
 
