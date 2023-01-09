@@ -1,5 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&family=Lobster&display=swap');
+
+
+
 .App {
+  font-family: 'Cinzel';
   text-align: center;
+}
+
+.text {
+  font-family: Fauna One, serif;
 }
 
 .App-logo {
