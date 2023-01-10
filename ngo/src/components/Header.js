@@ -1,8 +1,8 @@
 
-import logo from '../logo.png';
-import twitterLogo from '../twitter.svg';
-import facebookLogo from '../facebook.svg';
-import instagramLogo from '../instagram.svg';
+import logo from '../pictures/logo.png';
+import twitterLogo from '../pictures/twitter.svg';
+import facebookLogo from '../pictures/facebook.svg';
+import instagramLogo from '../pictures/instagram.svg';
 
 function headerComoponent (){
     return(
