@@ -10,19 +10,6 @@ function TextContent (props) {
     </div>
     return content
 }
-    const title1 = 'Our story'
-    const title2 = 'Our impact'
-    const title3 = 'Take action'
-    const title4 = 'Wildlife art'
-    const title5 = 'News&events'
-    const title6 = 'Shop'
-
-    const id1 = 'text1'
-    const id2 = 'text2'
-    const id3 = 'text3'
-    const id4 = 'text4'
-    const id5 = 'text5'
-    const id6 = 'text6'
 
     const text1 = `Established in 1984, David Shepherd Wildlife Foundation (DSWF) was set up to help turn the tide on species extinction. Born from a passionate belief that we must conserve the natural world, our mission is to fight, protect and engage on behalf of threatened and endangered wildlife across Africa and Asia. 
 
