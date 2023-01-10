@@ -10,22 +10,22 @@ function headerComoponent (){
         <div className="headerDiv">
          <div className='logoContainer'>
          <a href="http://10.44.6.107:3000/">
-          <img src={logo}></img>
+          <img src={logo} alt='logo'></img>
           </a>
           <a href="https://twitter.com/dswfwildlife">
-          <img src={twitterLogo}></img>
+          <img src={twitterLogo} alt='twitter logo'></img>
           </a>
           <a href="https://www.facebook.com/DSWFWildlife/">
-          <img src={facebookLogo}></img>
+          <img src={facebookLogo} alt='facebook logo'></img>
           </a>
           <a href="https://www.instagram.com/dswfwildlife/">
-          <img src={instagramLogo}></img>
+          <img src={instagramLogo} alt='instagram logo'></img>
           </a>
          </div>
          <div className='button-containers'>
          <input className='buttons' type="button" value="Donate"></input>
          <input className='buttons' type="button" value="My account"></input>
-         <input className='buttons' type="button" value="Contact Us"></input>
+         <input className='buttons' type="button" value="Contact us"></input>
          </div>
         </div>
       </header>
