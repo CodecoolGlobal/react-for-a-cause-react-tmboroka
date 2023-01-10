@@ -25,7 +25,7 @@ function headerComoponent (){
          <div className='button-containers'>
          <input className='buttons' type="button" value="Donate"></input>
          <input className='buttons' type="button" value="My account"></input>
-         <input className='buttons' type="button" value="Mit akarunk"></input>
+         <input className='buttons' type="button" value="Contact Us"></input>
          </div>
         </div>
       </header>
