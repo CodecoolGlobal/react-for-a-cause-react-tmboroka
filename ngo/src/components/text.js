@@ -10,8 +10,6 @@ function TextContent (props) {
     </div>
     return content
 }
-
-function Text () {
     const title1 = 'Our story'
     const title2 = 'Our impact'
     const title3 = 'Take action'
@@ -71,17 +69,5 @@ function Text () {
     
     Our stock is continually changing. We also have some unique No 1 prints, formerly owned by the great man himself, David Shepherd CBE.  So if you’re looking for a specific print, then please do get in touch with kay.roudaut@davidshepherd.org.`
 
-    return (
-        <div>
-        <TextContent id={id1} title={title1} text={text1}/>,
-        <TextContent id={id2} title={title2} text={text2}/>,
-        <TextContent id={id3} title={title3} text={text3}/>,
-        <TextContent id={id4} title={title4} text={text4}/>,
-        <TextContent id={id5} title={title5} text={text5}/>,
-        <TextContent id={id6} title={title6} text={text6}/>,
-        </div>
-    )
-    
-}
 
-export default Text
+export {TextContent, text1, text2, text3, text4, text5, text6};
