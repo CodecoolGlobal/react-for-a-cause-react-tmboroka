@@ -2,16 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&family=Lobster&display=swap');
 
 :root{
-  --blue: rgb(38, 70, 83);
-  --green: rgb(42,157, 143);
-  --yellow: rgb(233, 196, 106);
-  --orange: rgb(244,162,97);
-  --red: rgb(231, 111, 81);
+  --dark: #394a51;
+  --middle: #7fa99b;
+  --light: #fbf2d5;
 }
 
 
 .barrier-container{
-  background-color: var(--blue);
+  background-color: var(--middle);
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr 2fr  2fr 2fr;
   grid-template-rows: 0.2fr 0.2fr;
@@ -56,7 +54,7 @@
 }
 
 .headerDiv{
-  background-color: green;
+  background-color: var(--dark);
   display: grid;
   grid-template-columns: 1fr 1fr 2fr 1fr;
 }
@@ -67,7 +65,7 @@
 }
 .headerDiv > .button-containers > .buttons:hover {
   cursor: pointer;
-  background-color: aqua;
+  background-color: var(--middle);
   
 }
 
