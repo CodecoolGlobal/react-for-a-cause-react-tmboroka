@@ -31,7 +31,7 @@ function App() {
       content3={animalContainerContent('third', elephant, second_content3, second_alt3)}/>
       <TextContent id='text3' title='Take action' text={text3}/>
       <TextContent id='text4' title='Wildlife art' text={text4}/>
-      <TextContent id='text5' title='News&events' text={text5}/>
+      <TextContent id='text5' title='News and events' text={text5}/>
       <Barrier title="Wildlife needs our help now!"
       content1= {animalContainerContent('first', doggo, content1, content1_alt)} 
       content2= {animalContainerContent('second', rhino, content2, content2_alt )}
