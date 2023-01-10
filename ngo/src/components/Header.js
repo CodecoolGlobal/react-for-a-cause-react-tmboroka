@@ -1,8 +1,8 @@
 
-import logo from '../logo.png';
-import twitterLogo from '../twitter.svg';
-import facebookLogo from '../facebook.svg';
-import instagramLogo from '../instagram.svg';
+import logo from '../pictures/logo.png';
+import twitterLogo from '../pictures/twitter.svg';
+import facebookLogo from '../pictures/facebook.svg';
+import instagramLogo from '../pictures/instagram.svg';
 
 function headerComoponent (){
     return(
@@ -23,13 +23,17 @@ function headerComoponent (){
           </a>
          </div>
          <div className='button-containers'>
-         <input className='buttons' type="button" value="Donate"></input>
-         <input className='buttons' type="button" value="My account"></input>
-         <input className='buttons' type="button" value="Contact us"></input>
+          <a className='buttons' href='#text3'>
+         <button className='buttons' onClick={linkButton}>Donate</button></a>
+         <a className='buttons' href='#ContactCard'><button className='buttons'>Contact us</button></a>
          </div>
         </div>
       </header>
     )
+  }
+
+  function linkButton() {
+    return 
   }
 
 export default headerComoponent
