@@ -16,6 +16,7 @@ import pan from './pictures/Pansmth.svg'
 import ContactCard from './components/ContactCard';
 
 
+
 function App() {
 
   return (
@@ -36,7 +37,6 @@ function App() {
       content2= {animalContainerContent('second', rhino, content2, content2_alt )}
       content3= {animalContainerContent('third', leopard, content3, content3_alt)}
       />
-
     </div>
   );
 }
