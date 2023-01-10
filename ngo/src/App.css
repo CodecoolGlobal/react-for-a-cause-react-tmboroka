@@ -1,6 +1,40 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&family=Lobster&display=swap');
 
+.barrier-container{
+  background-color: grey;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr  2fr 2fr;
+  grid-template-rows: 0.2fr 0.2fr;
+  align-items: center;
+}
+
+.barrier-container > h1{
+  text-align: center;
+  grid-column: 4;
+}
+
+.barrier-container > #first{
+  display: flex;
+  grid-column: 3;
+  grid-row: 2;
+}
+.barrier-container > #second{
+  display: flex;
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.barrier-container > #third{
+  display: flex;
+  grid-column: 5;
+  grid-row: 2;
+}
+
+
+
+
+
 .toolbar-comp{
   display: grid;
   grid-template-columns: 2fr 6fr 2fr;
