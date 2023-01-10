@@ -37,6 +37,9 @@ function App() {
       content2= {animalContainerContent('second', rhino, content2, content2_alt )}
       content3= {animalContainerContent('third', leopard, content3, content3_alt)}
       />
+      <TextContent id='text6' title='Shop' text={text6}/>
+      <ContactCard/>
+      <Donation/>
     </div>
   );
 }
