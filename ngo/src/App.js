@@ -6,13 +6,14 @@ import TextContent from './components/text'
 import Barrier from './components/Barrier';
 import {text1, text2, text3, text4, text5, text6} from './components/text_content'
 import {animalContainerContent, content1, content1_alt, content2, content2_alt, content3, content3_alt, second_content1, second_alt1, second_content2, second_alt2, second_content3,second_alt3} from './components/AnimalContainer';
-import doggo from './dogoo.svg'
-import rhino from './rhino.svg'
-import leopard from './macska.svg'
-import cat from './Cat.svg'
-import elephant from './Elephant.svg'
-import pan from './Pansmth.svg'
 import Donation from './components/Donation';
+import doggo from './pictures/dogoo.svg'
+import rhino from './pictures/rhino.svg'
+import leopard from './pictures/macska.svg'
+import cat from './pictures/Cat.svg'
+import elephant from './pictures/Elephant.svg'
+import pan from './pictures/Pansmth.svg'
+import ContactCard from './components/ContactCard';
 
 
 function App() {
@@ -35,8 +36,7 @@ function App() {
       content2= {animalContainerContent('second', rhino, content2, content2_alt )}
       content3= {animalContainerContent('third', leopard, content3, content3_alt)}
       />
-      <TextContent id='text6' title='Shop' text={text6}/>
-      <Donation/>
+
     </div>
   );
 }

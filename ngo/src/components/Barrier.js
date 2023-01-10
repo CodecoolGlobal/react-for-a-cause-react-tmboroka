@@ -1,5 +1,3 @@
-
-
 function barrierComponent(props) {
     return (
         <div className="barrier-container">
