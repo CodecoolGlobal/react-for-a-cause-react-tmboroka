@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-
+import Donation from './Donation';
 function ContactCard () {
 	const [isHidden, setIsHidden] = useState(false);
 
     return (
 		<div className='formContainer'>
-        <div style={{display: isHidden ? 'none' : 'block'}}>
+        <div className='actualForm' style={{display: isHidden ? 'none' : 'flex'}}>
     <form onSubmit={(e) => {e.preventDefault() ; setIsHidden(!isHidden)}} id="form">
 	<label class='label' for="fname">Name:</label><br></br>
 	<input type="text" id="fname" class="form" required></input><br></br>
@@ -18,9 +18,10 @@ function ContactCard () {
     <input type="submit" value="Submit"></input>
   </form>
         </div>
-		<div style={{display: isHidden ? 'block' : 'none'}}>
+		<div  style={{display: isHidden ? 'flex' : 'none'}}>
 			<h4>We appreciate you contacting us. One of our colleagues will get back in touch with you soon! <br></br>Have a great day!</h4>
 		</div>
+		<Donation/>
 		</div>
 		
     )
