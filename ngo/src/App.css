@@ -110,6 +110,12 @@ h1 {
   font-family:Cinzel, serif;
   color: var(--dark);
 }
+
+.text-comp {
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: justify;
+}
 /*text end*/
 
 /*contact card start*/
