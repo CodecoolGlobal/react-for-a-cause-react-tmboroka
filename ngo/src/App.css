@@ -56,9 +56,20 @@ max-height: 2em;
 /*header end*/
 
 .pictures {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  grid-template-rows: 0.2fr 0.2fr;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 365px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.animal-pic-container{
+  width: fit-content;
 }
 
  .animal-pic-container > h2 {
