@@ -11,6 +11,15 @@
   --light: #fbf2d5;
 }
 
+.pictures {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 0.2fr 0.2fr;
+}
+
+ .animal-pic-container > h2 {
+  font-family: Cinzel;
+}
 
 .barrier-container{
   background-color: var(--middle);
