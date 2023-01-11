@@ -52,7 +52,7 @@
 }
 
 
-.toolbar-comp{
+/*.toolbar-comp{
   font-family: Cinzel;
   display: grid;
   grid-template-columns: 2fr 6fr 2fr;
@@ -62,7 +62,7 @@
   display: flex;
   justify-content: space-between;
   grid-column: 2;
-}
+}*/
 
 /*.headerDiv{
   background-color: var(--dark);

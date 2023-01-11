@@ -2,8 +2,6 @@
 import Header from './components/Header'
 import './App.css'
 import './header.css'
-import './toolbar.css'
-import Toolbar from './components/toolbar';
 import TextContent from './components/text'
 import Barrier from './components/Barrier';
 import {text1, text2, text3, text4, text5, text6} from './components/text_content'
@@ -26,7 +24,6 @@ function App() {
   return (
     <div>
       <Header />
-      <Toolbar />
       <TextContent id="text1" title='Our story' text={text1}/>
       <TextContent id='text2' title='Our impact' text={text2}/>
       <Barrier title="Our Impact"
