@@ -11,6 +11,7 @@
   --light: #fbf2d5;
 }
 
+
 .pictures {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;

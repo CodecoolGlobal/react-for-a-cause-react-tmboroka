@@ -19,8 +19,8 @@ function CreateDonateComponent() {
     return(
         <div className="Donation">
             <form onSubmit={(e) => {e.preventDefault();handleClick()}}>
-                <input type="number" placeholder="Enter an amount please!" min="1" required value={number} onChange={handleNumberChange}></input>
-                <input type="email" required placeholder="Enter your email!" value={message} onChange={handleChange}></input>
+                <input type="number" placeholder="Enter an amount please!" min="1" required value={number} onChange={handleNumberChange}></input> <br></br>
+                <input type="email" required placeholder="Enter your email!" value={message} onChange={handleChange}></input><br></br>
                 <input type="submit" value="Submit" ></input>
             </form>
         </div>
