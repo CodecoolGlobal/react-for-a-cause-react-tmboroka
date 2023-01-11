@@ -3,7 +3,7 @@ function animalContainerContent(id,logo, text, altcontent) {
         <div className="header" id={id}>
         <div id={id} className="animals-container">
             <img src={logo} alt={altcontent}></img>
-            <p>{text}</p>
+            <p className="text">{text}</p>
             </div>
     </div>
     )
