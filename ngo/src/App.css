@@ -11,6 +11,49 @@
   --light: #fbf2d5;
 }
 
+/*header start*/
+.headerDiv{
+  background-color: var(--dark);
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr 1fr;
+  height: 4em;
+  
+}
+
+.headerDiv > .logoContainer{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+grid-column: 1;
+}
+
+.logoContainer > a > img{
+min-width: 3em;
+max-height: 2em;
+}
+
+.buttonz{
+  border-radius: 10px;
+  background-color: var(--light);
+  width: 12em;
+  height: 3em;
+  font-family: Fauna One, serif; 
+}
+
+.buttonz:hover {
+  cursor: pointer;
+  background-color: var(--middle);
+  border-color: var(--middle);
+  height: 3em;
+}
+
+.headerDiv > .button-containers{
+  grid-column: 4;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+/*header end*/
 
 .pictures {
   display: grid;
@@ -52,54 +95,6 @@
   grid-row: 2;
 }
 
-
-/*.toolbar-comp{
-  font-family: Cinzel;
-  display: grid;
-  grid-template-columns: 2fr 6fr 2fr;
-}
-
-.toolbar-comp > .a-container {
-  display: flex;
-  justify-content: space-between;
-  grid-column: 2;
-}*/
-
-/*.headerDiv{
-  background-color: var(--dark);
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr 1fr;
-}
-
-.headerDiv > .button-containers > .buttons{
-  border-radius: 12px;
-  
-}
-.headerDiv > .button-containers > .buttons:hover {
-  cursor: pointer;
-  background-color: var(--middle);
-  
-}
-
-.headerDiv > .button-containers{
-  grid-column: 4;
-  display: flex;
-  justify-content: right;
-  justify-content: space-around;
-}
-
-.headerDiv > .logoContainer{
-  display: flex;
-  justify-content: space-evenly;
-  grid-column: 2;
-}
-
-.logoContainer > a > img{
-  min-width: 3em;
-  max-height: 2em;
-} */
-
-
 .App {
   font-family: 'Cinzel';
   text-align: center;
@@ -115,5 +110,35 @@
   color: var(--dark);
 }
 
+/*contact card start*/
+.Donation{
+  display: flex;
+  background-color: var(--dark);
+  width: -moz-fit-content;
+  width: 266px;
+  height: 200px;
+  align-items: center;
+  border-radius: 45px;
+  justify-content: center;
+}
+
+.actualForm{
+  background-color: var(--dark);
+  width: 299px;
+  display: flex;
+  border-radius: 56px;
+  justify-content: space-around;
+  color: var(--light);
+}
+
+.formContainer{
+  background-color: var(--middle);
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+}
+/* contact card end*/
  
 

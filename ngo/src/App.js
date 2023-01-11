@@ -1,7 +1,6 @@
 
 import Header from './components/Header'
 import './App.css'
-import './header.css'
 import TextContent from './components/text'
 import Barrier from './components/Barrier';
 import {text1, text2, text3, text4, text5, text6} from './components/text_content'
@@ -14,8 +13,6 @@ import elephant from './pictures/Elephant.svg'
 import pan from './pictures/Pansmth.svg'
 import ContactCard from './components/ContactCard';
 import AnimalPicture from './components/AnimalPicture'
-import './ContactCard.css'
-
 
 
 function App() {
