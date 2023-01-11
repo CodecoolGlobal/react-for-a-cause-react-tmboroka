@@ -18,10 +18,10 @@ function CreateDonateComponent() {
 
     return(
         <div className="Donation">
-            <form>
+            <form onSubmit={(e) => {e.preventDefault();handleClick()}}>
                 <input type="number" placeholder="Enter an amount please!" min="1" required value={number} onChange={handleNumberChange}></input>
                 <input type="email" required placeholder="Enter your email!" value={message} onChange={handleChange}></input>
-                <input type="submit" placeholder="Submit" onClick={handleClick}></input>
+                <input type="submit" value="Submit" ></input>
             </form>
         </div>
     )
