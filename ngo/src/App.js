@@ -1,6 +1,8 @@
 
 import Header from './components/Header'
 import './App.css'
+import './header.css'
+import './toolbar.css'
 import Toolbar from './components/toolbar';
 import TextContent from './components/text'
 import Barrier from './components/Barrier';
