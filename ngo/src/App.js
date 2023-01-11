@@ -23,9 +23,9 @@ function App() {
       <TextContent id="text1" title='Our story' text={text1}/>
       <TextContent id='text2' title='Our impact' text={text2}/>
       <Barrier title="Our Impact"
-      content1={animalContainerContent('first',cat, second_content1,second_alt1 )}
-      content2={animalContainerContent('second',pan, second_content2, second_alt2)}
-      content3={animalContainerContent('third', elephant, second_content3, second_alt3)}/>
+      content1={animalContainerContent('first',cat, second_content1,second_alt1, 'textfirst' )}
+      content2={animalContainerContent('second',pan, second_content2, second_alt2, 'textsecond')}
+      content3={animalContainerContent('third', elephant, second_content3, second_alt3, 'textthird')}/>
       <TextContent id='text3' title='Take action' text={text3}/>
       <div className='pictures'>
       <AnimalPicture name='Elephants' pic='https://davidshepherd.org/wp-content/uploads/2020/05/elephant-feature-james-kydd-david-shepherd-wildlife-foundation.jpg'/>
@@ -38,9 +38,9 @@ function App() {
       <TextContent id='text4' title='Wildlife art' text={text4}/>
       <TextContent id='text5' title='News and events' text={text5}/>
       <Barrier title="Wildlife needs our help now!"
-      content1= {animalContainerContent('first', doggo, content1, content1_alt)} 
-      content2= {animalContainerContent('second', rhino, content2, content2_alt )}
-      content3= {animalContainerContent('third', leopard, content3, content3_alt)}
+      content1= {animalContainerContent('first', doggo, content1, content1_alt, 'textfirst')} 
+      content2= {animalContainerContent('second', rhino, content2, content2_alt, 'textsecond')}
+      content3= {animalContainerContent('third', leopard, content3, content3_alt, 'textthird')}
       />
       <TextContent id='text6' title='Shop' text={text6}/>
       <ContactCard/>
