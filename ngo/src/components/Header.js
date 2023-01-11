@@ -24,8 +24,9 @@ function headerComoponent (){
          </div>
          <div className='button-containers'>
           <a className='buttons' href='#text3'>
-         <button className='buttons' onClick={linkButton}>Donate</button></a>
-         <a className='buttons' href='#form'><button className='buttons'>Contact us</button></a>
+         <button className='buttonz' onClick={linkButton}>Donate</button></a>
+         <a className='buttons' href='#form'>
+          <button className='buttonz'>Contact us</button></a>
          </div>
         </div>
       </header>
