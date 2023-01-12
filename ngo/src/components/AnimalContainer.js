@@ -1,9 +1,9 @@
-function animalContainerContent(id,logo, text, altcontent) {
+function animalContainerContent(id,logo, text, altcontent, idp) {
     return (
         <div className="header" id={id}>
-        <div id={id} className="animals-container">
-            <img src={logo} alt={altcontent}></img>
-            <p className="text">{text}</p>
+        <div className="animals-container">
+            <img   src={logo} alt={altcontent}></img>
+            <p id={idp} className="text">{text}</p>
             </div>
     </div>
     )

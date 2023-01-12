@@ -82,8 +82,8 @@ max-height: 2em;
   background-color: var(--middle);
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr 2fr  2fr 2fr;
-  grid-template-rows: 0.2fr 0.2fr;
-  align-items: center;
+  grid-template-rows: 0.2fr 0.2fr 0.2fr;
+  align-items: start;
 }
 
 .barrier-container > h1{
@@ -98,7 +98,11 @@ max-height: 2em;
   display: flex;
   grid-column: 3;
   grid-row: 2;
+  align-items:center
 }
+
+
+
 .barrier-container > #second{
   display: flex;
   grid-column: 4;
