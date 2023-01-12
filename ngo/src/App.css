@@ -163,6 +163,21 @@ h1 {
   margin-left: auto;
   align-items: center;
 }
+
+input[type=submit]{
+  border-radius: 10px;
+  background-color: var(--light);
+  width: 12em;
+  height: 3em;
+  font-family: Fauna One, serif; 
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+  background-color: var(--middle);
+  border-color: var(--middle);
+  height: 3em;
+}
 /* contact card end*/
  
 
