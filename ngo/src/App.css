@@ -1,44 +1,50 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&family=Lobster&display=swap');
 
-#root{
+#root {
   background-color: var(--light);
 }
 
-:root{
+:root {
   --dark: #394a51;
   --middle: #7fa99b;
   --light: #fbf2d5;
 }
 
+.footer {
+    background-color: var(--dark);
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+  
+}
 
 /*header start*/
-.headerDiv{
+.headerDiv {
   background-color: var(--dark);
   display: grid;
   grid-template-columns: 1fr 1fr 4fr 1fr;
   height: 4em;
-  
+
 }
 
-.headerDiv > .logoContainer{
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-grid-column: 1;
+.headerDiv>.logoContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  grid-column: 1;
 }
 
-.logoContainer > a > img{
-min-width: 3em;
-max-height: 2em;
+.logoContainer>a>img {
+  min-width: 3em;
+  max-height: 2em;
 }
 
-.buttonz{
+.buttonz {
   border-radius: 10px;
   background-color: var(--light);
   width: 13em;
   height: 3em;
-  font-family: Fauna One, serif; 
+  font-family: Fauna One, serif;
 }
 
 .buttonz:hover {
@@ -48,12 +54,13 @@ max-height: 2em;
   height: 3em;
 }
 
-.headerDiv > .button-containers{
+.headerDiv>.button-containers {
   grid-column: 4;
   display: flex;
   justify-content: right;
   align-items: center;
 }
+
 /*header end*/
 
 .pictures {
@@ -69,18 +76,24 @@ max-height: 2em;
 }
 
 /*Animal pic start*/
-.animal-pic-container{
+.animal-pic-container {
   width: fit-content;
 }
 
- .animal-pic-container > h2 {
+.animal-pic-container:hover {
+  cursor: pointer;
+  background-color: var(--middle);
+}
+
+.animal-pic-container>h2 {
   font-family: Cinzel;
   text-align: center;
 }
+
 /*Animal pic end*/
 
 /*Adoption card start*/
-.Donation{
+.Donation {
   display: flex;
   background-color: var(--dark);
   width: -moz-fit-content;
@@ -89,24 +102,30 @@ max-height: 2em;
   align-items: center;
   border-radius: 45px;
 }
-.adopt-form{
+
+.adopt-form {
   padding: 10%;
-  margin-left: 35px;
-  
+  margin-left: 25px;
+
+}
+
+.input {
+  width: 180px;
+  height: 25px;
 }
 
 /*Adoption card end*/
 
 /*barrier start*/
-.barrier-container{
+.barrier-container {
   background-color: var(--middle);
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr 2fr 2fr  2fr 2fr;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
   grid-template-rows: 0.2fr 0.2fr 0.2fr;
   align-items: start;
 }
 
-.barrier-container > h1{
+.barrier-container>h1 {
   text-align: center;
   grid-column-start: 3;
   grid-column-end: 6;
@@ -114,36 +133,37 @@ max-height: 2em;
 }
 
 
-.barrier-container > #first{
+.barrier-container>#first {
   display: flex;
   grid-column: 3;
   grid-row: 2;
-  align-items:center
+  align-items: center
 }
 
 
 
-.barrier-container > #second{
+.barrier-container>#second {
   display: flex;
   grid-column: 4;
   grid-row: 2;
 }
 
-.barrier-container > #third{
+.barrier-container>#third {
   display: flex;
   grid-column: 5;
   grid-row: 2;
 }
+
 /*barrier end*/
 
-/*text start*/ 
+/*text start*/
 .text {
   font-family: Fauna One, serif;
   color: var(--dark);
 }
 
 h1 {
-  font-family:Cinzel, serif;
+  font-family: Cinzel, serif;
   color: var(--dark);
   text-align: center;
 }
@@ -158,36 +178,44 @@ h1 {
 .form-text {
   text-align: center;
   font-family: Fauna One, serif;
-  color:var(--light);
+  color: var(--light);
   padding: 10%;
 }
+
 /*text end*/
 
 /*contact card start*/
-.actualForm{
+.actualForm {
   background-color: var(--dark);
-  width: 299px;
+  width: 300px;
   display: flex;
   border-radius: 56px;
   justify-content: space-around;
   color: var(--light);
 }
 
-.formContainer{
-  background-color: var(--middle);
+.label {
+  color: var(--light);
+  font-family: Fauna One, serif;
+  margin-left: 16px;
+}
+
+.formContainer {
+  background-color: var(--light);
   display: flex;
   justify-content: space-evenly;
   margin-right: auto;
   margin-left: auto;
   align-items: center;
+  margin-bottom: 10px;
 }
 
-input[type=submit]{
+input[type=submit] {
   border-radius: 10px;
   background-color: var(--light);
   width: 12em;
   height: 3em;
-  font-family: Fauna One, serif; 
+  font-family: Fauna One, serif;
 }
 
 input[type=submit]:hover {
@@ -196,11 +224,12 @@ input[type=submit]:hover {
   border-color: var(--middle);
   height: 3em;
 }
-/* contact card end*/
- 
 
-@media only screen and (max-width: 900px){
-  .barrier-container{
+/* contact card end*/
+
+
+@media only screen and (max-width: 900px) {
+  .barrier-container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
   }

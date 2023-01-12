@@ -18,7 +18,7 @@ function AnimalPicture(props) {
         <h2>{name}</h2>
       </div>
       <div style={{ display: isHidden ? "flex" : "none" }}>
-        <Donation name={`Help us protect ${name} by adopting one! `} id={id}/>
+        <Donation name={`Help us protect ${name} by adopting one! `} id={id} />
       </div>
     </div>
   );
