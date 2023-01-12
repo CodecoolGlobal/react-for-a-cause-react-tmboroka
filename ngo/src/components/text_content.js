@@ -36,11 +36,7 @@ const text4 = `David Shepherd Wildlife Foundation (DSWF) has a rich art heritage
  
  DSWF is also home to the world-famous Wildlife Artist of the Year competition and exhibition.`
 
- const text5 = `Take part in our upcoming Events!
+const text5 = `Take part in our upcoming Events!
 From our world-renowned DSWF Wildlife Artist of the Year competition and exhibition to our spectacular Wildlife Ball, David Shepherd Wildlife Foundation (DSWF) is proud of our calendar of events. Each providing an exciting opportunity to engage with DSWF and our work protecting endangered species. Connect with the natural world through art and support our conservation efforts across Africa and Asia. Make sure you’re signed up to our newsletter to be the first to hear from us!`
 
-const text6 = `Born by our Founder, the great wildlife artist David Shepherd OBE, art is a wonderful tool that helps us raise vital funds to protect the species and wild places that graced his canvas – a legacy we proudly keep alive today. If you’re after a piece of artwork that will transport you to the plains of Africa, the lush forest and jungles of Asia or invoke a cherished memory, then look no further. The rich array and variety of artwork for sale through DSWF will not only inspire you but also give back to the wildlife we work so hard to protect.
-
-Browse David Shepherd originals to outstanding artworks featuring a true celebration of the world’s wildlife and wild places.`
-
-export {text1, text2, text3, text4, text5, text6};
+export { text1, text2, text3, text4, text5};
