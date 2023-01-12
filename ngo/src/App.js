@@ -21,7 +21,6 @@ function App() {
     <div>
       <Header />
       <TextContent id="text1" title='Our story' text={text1}/>
-      <TextContent id='text2' title='Our impact' text={text2}/>
       <Barrier title="Our Impact"
       content1={animalContainerContent('first',cat, second_content1,second_alt1, 'textfirst' )}
       content2={animalContainerContent('second',pan, second_content2, second_alt2, 'textsecond')}

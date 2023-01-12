@@ -41,8 +41,6 @@ From our world-renowned DSWF Wildlife Artist of the Year competition and exhibit
 
 const text6 = `Born by our Founder, the great wildlife artist David Shepherd OBE, art is a wonderful tool that helps us raise vital funds to protect the species and wild places that graced his canvas – a legacy we proudly keep alive today. If you’re after a piece of artwork that will transport you to the plains of Africa, the lush forest and jungles of Asia or invoke a cherished memory, then look no further. The rich array and variety of artwork for sale through DSWF will not only inspire you but also give back to the wildlife we work so hard to protect.
 
-Browse David Shepherd originals to outstanding artworks featuring a true celebration of the world’s wildlife and wild places. Use the menu bar directly below to find your perfect piece. Please note that due to COVID-19 there are still postal delays that are out of our control and we are unable to guarantee delivery times.
-
-Our stock is continually changing. We also have some unique No 1 prints, formerly owned by the great man himself, David Shepherd CBE.  So if you’re looking for a specific print, then please do get in touch with kay.roudaut@davidshepherd.org.`
+Browse David Shepherd originals to outstanding artworks featuring a true celebration of the world’s wildlife and wild places.`
 
 export {text1, text2, text3, text4, text5, text6};
