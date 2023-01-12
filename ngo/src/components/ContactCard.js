@@ -4,8 +4,8 @@ function gatherLogData() {
 	const data = {
 		name: document.getElementById('fname').value,
 		email: document.getElementById('femail').value,
-		city: document.getElementById('fcity').value,
-		adress: document.getElementById('faddress').value,
+		subject: document.getElementById('fcity').value,
+		message: document.getElementById('faddress').value,
 }
 console.log(data)
 
@@ -22,9 +22,9 @@ function ContactCard () {
 	<input type="text" id="fname" class="form" required></input><br></br>
 	<label class='label'for="lname" name="email">Email:</label><br></br>
 	<input type="email" id="femail" class="form" required></input><br></br>
-	<label class='label' for="lname" name="city">City:</label><br></br>
+	<label class='label' for="lname" name="city">Subject:</label><br></br>
 	<input type="text" id="fcity" class="form" required></input><br></br>
-	<label class='label' for="lname" name="address">Address:</label><br></br>
+	<label class='label' for="lname" name="address">Message:</label><br></br>
 	<input type="text" id="faddress" class="form" required></input><br></br>
     <input type="submit" value="Submit"></input>
   </form>
