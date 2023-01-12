@@ -25,11 +25,9 @@ By acknowledging the essential role that communities and education play, on the 
 The Art of Survival: DSWF is dedicated to maintaining our rich art heritage, which was started by our late founder, David Shepherd, and which remains an essential part of the Foundation’s DNA. 
 
 `
-const text3 = `Donate
-On behalf of everyone at David Shepherd Wildlife Foundation (DSWF), we are extremely grateful for your donation which will help to safeguard some of Africa and Asia’s last stronghold populations of endangered keystone species, as well as the brave wildlife rangers who work tirelessly on the frontline to protect them. 
+const text3 = `Your adoption will directly fund the work of our ground-based conservation partners fighting to protect wildlife on your behalf. Whether you’re buying for yourself or a gift for someone else, by choosing to adopt an animal today you can ensure a future for vulnerable wildlife across Africa and Asia. Alternatively you can sponsor a ranger bravely working on the front line of conservation protecting wildlife.
 
-DSWF relies entirely on donations and support from generous individuals like you to ensure a brighter future for wildlife. So, thank you for helping to give endangered wildlife a chance of survival. `
-
+`
 const text4 = `David Shepherd Wildlife Foundation (DSWF) has a rich art heritage thanks to our founder, the late great conservationist and wildlife artist, David Shepherd.
 
  David dedicated 60 years of his life to protecting endangered wildlife, using his exceptional artworks to raise vital funds for DSWF.

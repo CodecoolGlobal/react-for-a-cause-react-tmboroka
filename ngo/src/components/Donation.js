@@ -1,28 +1,28 @@
 import {useState} from 'react';
-function CreateDonateComponent() {
+function CreateDonateComponent(props) {
     const [message, setMessage] = useState('');
-    const [number, setNumber] = useState('');
+    const [Hidden, setHidden] = useState(false);
 
-    const handleNumberChange = event =>{
-        setNumber(event.target.value)
-    }
+
 
     const handleChange = event =>{
-        setMessage(event.target.value)
+        setMessage(document.getElementById(`${props.id}`).value)
     }
 
-    const handleClick = () =>{
-        setMessage('')
-        setNumber('')
-    }
 
     return(
-        <div className="Donation">
-            <form onSubmit={(e) => {e.preventDefault();handleClick()}}>
-                <input type="number" placeholder="Enter an amount please!" min="1" required value={number} onChange={handleNumberChange}></input> <br></br>
-                <input type="email" required placeholder="Enter your email!" value={message} onChange={handleChange}></input><br></br>
+        <div>
+        <div style={{ display: Hidden ? "none" : "block" }}  className="Donation">
+            <form className='adopt-form' onSubmit={(e) => {e.preventDefault();setHidden(!Hidden); handleChange()}}>
+                <input id={props.id} type="text" placeholder="Enter a name for your animal" required ></input> <br></br>
+                <input type="email" required placeholder="Enter your email!"></input><br></br>
                 <input type="submit" value="Submit" ></input>
             </form>
+                <h3 className='form-text'>{props.name}</h3>
+        </div>
+        <div style={{ display: Hidden ? "block" : "none" }}  className="Donation">
+            <h3 className='form-text'>Thank you for helping us protect by adopting {message}!</h3>
+        </div>
         </div>
     )
 }

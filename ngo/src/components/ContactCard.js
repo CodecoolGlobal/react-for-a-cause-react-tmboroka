@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Donation from './Donation';
 function gatherLogData() {
 	const data = {
 		name: document.getElementById('fname').value,
@@ -13,27 +12,25 @@ console.log(data)
 
 function ContactCard () {
 	const [isHidden, setIsHidden] = useState(false);
-	console.log(document.getElementById('form'))
     return (
-		<div className='formContainer'>
+	<div className='formContainer'>
         <div className='actualForm' style={{display: isHidden ? 'none' : 'flex'}}>
-    <form onSubmit={(e) => {e.preventDefault() ; gatherLogData(); setIsHidden(!isHidden)}} id="form">
-	<label class='label' for="fname" name="name">Name:</label><br></br>
-	<input type="text" id="fname" class="form" required></input><br></br>
-	<label class='label'for="lname" name="email">Email:</label><br></br>
-	<input type="email" id="femail" class="form" required></input><br></br>
-	<label class='label' for="lname" name="city">Subject:</label><br></br>
-	<input type="text" id="fcity" class="form" required></input><br></br>
-	<label class='label' for="lname" name="address">Message:</label><br></br>
-	<input type="text" id="faddress" class="form" required></input><br></br>
-    <input type="submit" value="Submit"></input>
-  </form>
+    		<form onSubmit={(e) => {e.preventDefault() ; gatherLogData(); setIsHidden(!isHidden)}} id="form">
+				<label className='label' for="fname" name="name">Name:</label><br></br>
+				<input type="text" id="fname" className="form" required></input><br></br>
+				<label className='label'for="lname" name="email">Email:</label><br></br>
+				<input type="email" id="femail" className="form" required></input><br></br>
+				<label className='label' for="lname" name="city">Subject:</label><br></br>
+				<input type="text" id="fcity" className="form" required></input><br></br>
+				<label className='label' for="lname" name="address">Message:</label><br></br>
+				<input type="text" id="faddress" className="form" required></input><br></br>
+				<input type="submit" value="Submit"></input>
+  			</form>
         </div>
 		<div  style={{display: isHidden ? 'flex' : 'none'}}>
-			<h4>We appreciate you contacting us. One of our colleagues will get back in touch with you soon! <br></br>Have a great day!</h4>
+			<h4 className='form-text'>We appreciate you contacting us. One of our colleagues will get back in touch with you soon! <br></br>Have a great day!</h4>
 		</div>
-		<Donation/>
-		</div>
+	</div>
     )
 }
 
