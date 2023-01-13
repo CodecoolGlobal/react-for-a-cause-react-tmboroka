@@ -28,7 +28,7 @@ function ContactCard() {
 				</form>
 			</div>
 			<div style={{ display: isHidden ? 'flex' : 'none' }}>
-				<h4 className='form-text'>We appreciate you contacting us. One of our colleagues will get back in touch with you soon! <br></br>Have a great day!</h4>
+				<h4 className='thanks-text'>We appreciate you contacting us. One of our colleagues will get back in touch with you soon! <br></br>Have a great day!</h4>
 			</div>
 		</div>
 	)

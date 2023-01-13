@@ -182,6 +182,13 @@ h1 {
   padding: 10%;
 }
 
+.thanks-text {
+  text-align: center;
+  font-family: Fauna One, serif;
+  color: var(--dark);
+  padding: 10%;
+}
+
 /*text end*/
 
 /*contact card start*/
