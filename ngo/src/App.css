@@ -75,9 +75,14 @@
   margin-bottom: 20px;
 }
 
+
+
 /*Animal pic start*/
-.animal-pic-container {
-  width: fit-content;
+
+.animal-pic-container img {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
 }
 
 .animal-pic-container:hover {

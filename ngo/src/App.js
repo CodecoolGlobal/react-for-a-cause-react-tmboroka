@@ -29,12 +29,12 @@ function App() {
       <TextContent id="text1" title='Our story' text={text1} />
       <TextContent id='text3' title='Take action' text={text3} />
       <div className='pictures'>
-        <AnimalPicture id="animal-pic-first" name='Elephants' pic='https://davidshepherd.org/wp-content/uploads/2020/05/elephant-feature-james-kydd-david-shepherd-wildlife-foundation.jpg' />
-        <AnimalPicture id="animal-pic-second" name='Tigers' pic='https://davidshepherd.org/wp-content/uploads/2020/04/walking-tiger-feature-surya-ramachandran-david-shepherd-wildlife-foundation.jpg' />
-        <AnimalPicture id="animal-pic-third" name='Rhinos' pic='https://davidshepherd.org/wp-content/uploads/2020/05/rhino-feature-james-kydd-david-shepherd-wildlife-foundation.jpg' />
-        <AnimalPicture id="animal-pic-fourth" name='Painted dogs' pic='https://davidshepherd.org/wp-content/uploads/2020/05/painted-dog-pack-feature-nicholas-dyer-david-shepherd-wildlife-foundation.jpg' />
-        <AnimalPicture id="animal-pic-fifth" name='Pangolins' pic='https://davidshepherd.org/wp-content/uploads/2020/05/pangolin-feature-johan-vermeulen-david-shepherd-wildlife-foundation.jpg' />
-        <AnimalPicture id="animal-pic-sixth" name='Snow leopards' pic='https://davidshepherd.org/wp-content/uploads/2020/05/snow-leopard-Behzad-Larry-feature-david-shepherd-wildlife-foundation.jpg' />
+        <AnimalPicture id="animal-pic-first" name='Elephants' pic='https://images.newscientist.com/wp-content/uploads/2023/04/03151144/SEI_150766882.jpg?crop=4:3,smart&width=1200&height=900&upscale=true'/>
+        <AnimalPicture id="animal-pic-second" name='Tigers' pic='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7mwVvxksec2UyP09vyv0751IIlpjkJpViow&usqp=CAU' />
+        <AnimalPicture id="animal-pic-third" name='Rhinos' pic='https://files.worldwildlife.org/wwfcmsprod/images/White_Rhino/hero_small/3yuabfu3jq_white_rhino_42993643.jpg' />
+        <AnimalPicture id="animal-pic-fourth" name='Painted dogs' pic='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTycx5UrpKPIhIBlYdRR09-lBv57mLMZmLmlQ&usqp=CAU' />
+        <AnimalPicture id="animal-pic-fifth" name='Pangolins' pic='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQStsiV67cRe6HoSarb-mE85-N3Ckp91Pk50w&usqp=CAU' />
+        <AnimalPicture id="animal-pic-sixth" name='Snow leopards' pic='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6P49RPT5hdoh9Ujf0gOdDFvLsN8lM08fRXQ&usqp=CAU' />
       </div>
       <TextContent id='text4' title='Wildlife art' text={text4} />
       <Barrier title="Wildlife needs our help now!"
